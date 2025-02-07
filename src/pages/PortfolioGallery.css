@@ -1,0 +1,54 @@
+.portfolioImageSlide {
+  width: 37%;
+  height: 85vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.portfolio-image {
+  width: 100%; 
+  height: 85vh; 
+  max-height: 90vh;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+  /* Style dots */
+.slick-dots li button:before {
+  color: rgb(29, 218, 92); /* Customize dot color */
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: yellow; /* Color for the active dot */
+}
+
+/* Style arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: #640fee; /* Arrow color */
+  font-size: 20px;
+}
+
+.slick-prev {
+  left: -80px; /* Positioning for previous arrow */
+}
+
+.slick-next {
+  right: -80px; /* Positioning for next arrow */
+}

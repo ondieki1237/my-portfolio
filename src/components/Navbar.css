@@ -1,0 +1,40 @@
+.portfolio-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+   
+}
+.nav-links a {
+     list-style: none;
+     margin-right: 20px;
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+}
+.nav-links a:hover {
+    color: #390ff3; 
+    background-color: aliceblue;  
+    padding: 10px;  
+    border-radius: 10px;       
+  }
+.logo-container img {
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* padding: -20px; */
+
+}
+.logo-container {
+    margin-top: 0;
+}

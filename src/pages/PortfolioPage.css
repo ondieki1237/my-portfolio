@@ -1,0 +1,133 @@
+/* PortfolioPage.css */
+.ten-years {
+ display: flex;
+ margin-top: 5%;
+}
+
+
+/* Achievement Section */
+.achievements {
+  background-color: #f8f9fa;
+  width: 45%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+}
+
+.achievements h2 {
+  font-size: 1.8em;
+  color: #0073e6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.achievements ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.achievements li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: black;
+  color: #ccc;
+  transition: transform 0.3s ease;
+}
+
+/* Zoom out on hover */
+.achievements li:hover {
+  transform: scale(1.05); /* Scale down slightly */
+}
+
+/* Optional: Return to normal scale when hover is removed */
+.achievements li:active {
+  transform: scale(1);
+}
+
+.achievements li .fa-icon {
+  color: #007bff;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.achievements li strong {
+  color: #ff0000;
+}
+
+
+
+@media (max-width: 768px) {
+  .achievements {
+    padding: 15px;
+  }
+
+  .achievements h2 {
+    font-size: 20px;
+  }
+
+  .achievements li {
+    font-size: 14px;
+  }
+}
+
+
+/* SKills Section  */
+.skillsArea {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.section {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+  }
+  
+  .heading {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .role {
+    color: #0073e6;
+    font-size: 1.25em;
+  }
+  
+  .duration {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .responsibilities-list {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .responsibility {
+    margin-bottom: 8px;
+  }
+  

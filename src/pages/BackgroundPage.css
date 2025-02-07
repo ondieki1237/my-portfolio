@@ -1,0 +1,77 @@
+/* BackgroundPage.css */
+.background-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    font-size: 1.5em;
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .section p, .section ul {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 5px 0;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  .project, .experience, .education {
+    margin-top: 10px;
+  }
+  
+  .project h3, .experience h3, .education h3 {
+    font-size: 1.2em;
+    color: #2980b9;
+  }
+  
+  .project p, .experience p, .education p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  p strong {
+    color: #2c3e50;
+  }
+  
+  @media (max-width: 600px) {
+    .background-page {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 1.8em;
+    }
+  
+    .section h2 {
+      font-size: 1.3em;
+    }
+  
+    .project h3, .experience h3, .education h3 {
+      font-size: 1.1em;
+    }
+  }
+  
